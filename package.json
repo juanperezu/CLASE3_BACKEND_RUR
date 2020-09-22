@@ -1,0 +1,19 @@
+{
+  "name": "CLASE3_BACKEND_RUR",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "JUAN PEREZ",
+  "license": "ISC",
+  "description": "CRUD_API_JSON",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
