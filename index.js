@@ -10,12 +10,14 @@ app.use(morgan('dev')); // monitoriar las peticiones
 app.use(express.json());
 
 
-//routes
+//routes movies
 app.use('/api/',require('./routes/movies'));
+
+
 
 app.set('port',4001);
 app.listen(app.get('port'),()=>{
- console.log('Servidor corriendo en puerto 4001')
+ console.log('Servidor corriendo en puerto  '+app.get("port"));
  
 });
 
