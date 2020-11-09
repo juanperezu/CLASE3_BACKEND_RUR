@@ -1,0 +1,12 @@
+[
+    {
+        "id": 2,
+        "codigo": "01",
+        "nombre": "Aseo Casa"
+    },
+    {
+        "id": 1,
+        "codigo": "02",
+        "nombre": "Aseo Personal"
+    }
+]
